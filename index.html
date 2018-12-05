@@ -21,6 +21,39 @@
       overflow-x: hidden;
     }
 
+
+
+  /*New Section for boxes*/
+.box-img {
+  display: inline-block; /* change the default display type to inline-block */
+  overflow: hidden; 
+}
+
+.box-img img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  
+}
+.box-img:hover img {
+  transform:scale(1.2);
+  -ms-transform:scale(1.2); /* IE 9 */
+  -moz-transform:scale(1.2); /* Firefox */
+  -webkit-transform:scale(1.2); /* Safari and Chrome */
+  -o-transform:scale(1.2); /* Opera */
+}
+
+.box-img h4{
+  color: #fff;
+  position: absolute;
+  top:20%;
+  left: 20%;
+  text-align: center;
+}
+    /*End New Section for boxes*/
+
 @media screen and (min-width: 1900px){
    .animate-arrow {
     left: 7px;
@@ -554,7 +587,7 @@ ul li a {
       </div>
     
       </section> -->
-       <section>
+<!--        <section>
     <div class="row-fluid">
 
         <div class="col-md-6">
@@ -591,6 +624,55 @@ ul li a {
 
                 <div class="col-md-4 col-sm-6 col-xs-6" style="padding-top: 20px;">
                   <img src="assets/LINER HOME.jpg" style="width: 100%; height: auto;">
+                </div>
+                
+            </div>          
+        </div>
+    </div>
+  </section> -->
+
+  <section>
+    <div class="row-fluid">
+
+        <div class="col-md-6">
+            <img src="assets/LINER HOME.jpg" style="width: 100%; height: auto;">
+        </div>
+
+        <div class="col-md-6" >
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6 col-xs-6 box-img" style="padding-top: 20px;">
+                      <img src="assets/bg.jpg" style="width: 100%; height: auto;position: relative;">
+                      <h4 style="">Hello world</h4>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 box-img" style="padding-top: 20px;">
+                      <img src="assets/bg.jpg" style="width: 100%; height: auto;">
+                      <h4 style="">Hello world</h4>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 box-img" style="padding-top: 20px;">
+                      <img src="assets/bg.jpg" style="width: 100%; height: auto;">
+                      <h4 style="">Hello world</h4>
+                </div>
+                
+            </div> 
+
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6 col-xs-6 box-img" style="padding-top: 20px;">
+                  <img src="assets/bg.jpg" style="width: 100%; height: auto;">
+                  <h4 style="">Hello world</h4>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 box-img" style="padding-top: 20px;">
+                  <img src="assets/bg.jpg" style="width: 100%; height: auto;">
+                  <h4 style="">Hello world</h4>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 box-img" style="padding-top: 20px;">
+                  <img src="assets/bg.jpg" style="width: 100%; height: auto;">
+                  <h4 style="">Hello world</h4>
                 </div>
                 
             </div>          
