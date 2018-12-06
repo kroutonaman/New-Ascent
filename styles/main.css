@@ -6,7 +6,10 @@
  .nav>li>a{
   color:#000;
  }
-
+.navbar-nav {
+    
+    background-color: #fff !important;
+}
 ul#menu li {
     display:inline;
     color:#000;

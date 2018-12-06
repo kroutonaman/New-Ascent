@@ -66,23 +66,8 @@
     margin-right: 9px;
 }*/
 
-.firstsec-title {
-    text-align: center;
-    margin: 62px 0px;
-    padding: 100px 0px;
-    color: #ffffff;
-}
 
-.firstsection {
-    background: linear-gradient(0deg,rgba(2,38,56,0.8),rgba(0,0,0,0.8)),url(assets/Shipping-Banner12.jpg) center center;
-    height: 265px !important;
-}
-
-.home-doctors {
-    padding: 10px 10px 10px 10px;
-    display: inline-block;
-    left: 62px;
-}
+ 
 .mob-logo img {
 	width: 183px;
     margin-top: -32px;
@@ -92,50 +77,45 @@
     border-color: #ffffff;
     height: 105px;
 }
-.home-doctors h3 {
-    position: absolute;
-    top: 41%;
-    left: 22px;
-    width: 69%;
-    text-align: center;
-    opacity: 0;
-    z-index: 1;
-    color: #ffffff;
-    padding: 5px 0px;
-}
-.home-doctors img {
-    width: 146px;
-    height: 146px;
-}
 
 body{
     overflow-x: hidden;
 }
 
+
 }
 @media screen and (max-width: 992px) {
 
-.home-doctors img {
-    width: 400px !important;
-    height: 400px!important;
-}
-.doc-item .social-lists {
-    /* margin-top: -2em; */
-    opacity: 1;
-    font-size: 20px;
-}
-.home-doctors h3 {
+.slider-cap{
     position: absolute;
-    top: 45%;
-    margin: 0px 120px!important;
-    left: 0px !important;
-    width: 39% !important;
+    top: 100px !important;
+    /* font-size: 16px; */
     text-align: center;
-   
-    z-index: 1;
+    width: 100%;
     color: #ffffff;
-    padding: 7px 0px;
+}
+.slider-cap h2{
+    font-size: 25px !important;
+}
+.slider-cap p{
+    font-size: 15px !important;
 }
 }
 
 
+@media screen and (max-width: 600px) {
+.slider-cap{
+    position: absolute;
+    top: 50px !important;
+    /* font-size: 16px; */
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+}
+.slider-cap h2{
+    font-size: 20px !important;
+}
+.slider-cap p{
+    font-size: 10px !important;
+}
+}
