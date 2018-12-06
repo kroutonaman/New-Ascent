@@ -78,8 +78,13 @@
   color: #fff;
 }
 
-.ocean_freight li::before{
+table tr::before{
   content:url("assets/dot.png");
+  padding-right: 15px;
+}
+
+table{
+  margin: 5px;
 }
 
 div.content {
@@ -181,28 +186,94 @@ div.content {
         <h2>Ocean Freight</h2>
         <p>Ascent offer a full range of ocean freight services direct with carrier as forwarder or as a NVOCC for any/all less-than-containerload (LCL), full-containerload (FCL), oversized and hazardous cargo, Roll-on/Roll-off (Ro/Ro) and more from any origin to any destination. </p>
 
-        <p><b>Services include:</b></p>
+        
 
-        <ul>
-          <li>&nbsp;&nbsp;FCL</li>
-          <li>&nbsp;&nbsp;LCL</li>
-          <li>&nbsp;&nbsp;Breakbulk, heavy-lift, over-dimensional</li> 
-          <li>&nbsp;&nbsp;Project cargo</li>
-          <li>&nbsp;&nbsp;Consolidations</li>
-          <li>&nbsp;&nbsp;Charter/part-charter</li> 
-          <li>&nbsp;&nbsp;Multimodal solutions, including sea/air or air/sea</li>
-          <li>&nbsp;&nbsp;Container sales</li>
-          <li>&nbsp;&nbsp;Barge services</li>
-          <li>&nbsp;&nbsp;Marine surveys</li>
-          <li>&nbsp;&nbsp;24/7/365 staff availability</li>
-          <li>&nbsp;&nbsp;Door-to-door deliveries</li>
-          <li>&nbsp;&nbsp;Complete documentation preparation</li>
-          <li>&nbsp;&nbsp;Cargo marine insurance</li>
-          <li>&nbsp;&nbsp;Hazardous materials</li>
-          <li>&nbsp;&nbsp;Purchase order (P.O.) management</li>
-          <li>&nbsp;&nbsp;Web-based, in-transit visibility</li> 
-        </ul>
+        <table>
+          <p><b>Services include:</b></p>
+           <tr>
+             <td></td>
+             <td>FCL</td>
+           </tr>
+           <tr>
+             <td></td>
+             <td>LCL</td>
+           </tr>
 
+           <tr>
+             <td></td>
+             <td>Breakbulk, heavy-lift, over-dimensional</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Project cargo</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Consolidations</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Charter/part-charter</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Multimodal solutions, including sea/air or air/sea</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Container sales</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Barge services</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Marine surveys</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>24/7/365 staff availability</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Door-to-door deliveries</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Complete documentation preparation</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Cargo marine insurance</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Hazardous materials</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Purchase order (P.O.) management</td>
+           </tr>
+
+           <tr>
+             <td></td>
+             <td>Web-based, in-transit visibility</td>
+           </tr>
+        </table>
 
        
       </div>
@@ -335,6 +406,12 @@ div.content {
   div.col-md-8.col-sm-12.content.ocean_freight{
     margin-top:30px;
   }
+}
+
+@media(max-width: 768px){
+ p{
+  word-spacing: 0em;
+ }
 }
 
 </style>
