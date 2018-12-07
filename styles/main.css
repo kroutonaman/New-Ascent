@@ -378,6 +378,24 @@ vertical-align:middle;
   margin-top:0;
 }
 
+ /*for inner pages heading*/
+@media screen and (max-width: 991px){
+  .ocean_freight h2 {
+      margin-right: 5px;
+  }
+}
+
+/*Get a Quote button*/
+.btn-block{
+  text-align: center !important;
+  color:#fff !important;
+  text-shadow: 2px 2px 2px black !important;
+}
+
+@media(max-width: 314px){
+   
+}
+
                   
                                 
 
