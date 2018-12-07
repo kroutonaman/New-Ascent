@@ -380,6 +380,10 @@ vertical-align:middle;
   position:absolute;
   margin-top:0;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
 
  /*for inner pages heading*/
 @media screen and (max-width: 991px){
