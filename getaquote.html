@@ -74,6 +74,8 @@
 }
 /*End Header styling(Debugging) */
       </style>
+   <script src='https://www.google.com/recaptcha/api.js'></script>
+
    </head>
    <body translate="no" >
       <nav class="navbar navbar-fixed-top">
@@ -248,7 +250,7 @@
                         </div>
                      </fieldset>
                   </div>
-                  <div class="section">
+                  <!-- <div class="section">
                      <fieldset>
                         <legend>Radios</legend>
                         <fieldset>
@@ -261,14 +263,19 @@
                            </label>
                         </fieldset>
                      </fieldset>
-                  </div>
+                  </div> -->
                </fieldset>
                <div class="form-group w3-agile">
+<div class="col-md-12 col-md-offset-4">
+                  <div  class="g-recaptcha" data-sitekey="6LfSW38UAAAAAHm3rzVV5vu0GjY0xH6gaz9HwG8k"></div>
+</div>
                   <button type="submit" value="Submit" class="btn btn-lg agile btn-primary submit">Submit</button>
                </div>
+
             </form>
          </div>
       </section>
+
       <footer id="footer" class="section footer-classic context-dark bg-image" style="background-color:#000;">
         <div class="container"  >
           <div class="row row-30">
