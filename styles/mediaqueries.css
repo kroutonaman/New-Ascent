@@ -29,11 +29,15 @@
 .box_title{
     left: 88px !important;
 }
+.box-para p{
+    top: 281px !important;
+}
  .animate-arrow {
     left: 10px;
     padding: 1px 134px !important;
 
 }
+
 .numberone,.numbertwo,.numberthree h2 {
     font-weight: 900;
     font-size: 20px;
