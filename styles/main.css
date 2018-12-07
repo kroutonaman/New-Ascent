@@ -11,6 +11,9 @@
     background-color: #fff !important;
             margin: 7.5px 10px !important;
 }
+ul.dropdown-menu li{
+  margin: 10px 0px;
+}
 ul#menu li {
     display:inline;
     color:#000;
