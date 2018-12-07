@@ -41,6 +41,11 @@ ul#menu li {
     color: #fff;
 }
 
+table{
+  margin-left: 15px !important;
+  margin-right: 3px !important;
+}
+
 @media(max-width: 768px){
   ul#menu li{
     display: none;
