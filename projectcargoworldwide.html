@@ -16,6 +16,62 @@
       <link rel="stylesheet" type="text/css" href="styles/main.css">
       <style>
 
+            /* header styling*/
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px -93px 0px;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 10px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    line-height: 2.5;
+    font-weight: bold;
+}
+
+@media(max-width:1010px and min-width: 766px){
+    .navbar-collapse {
+    max-height: 340px;
+    background: #fff;
+    margin-top: 30px;
+  }
+}
+
+
+@media (max-width: 767px){
+  .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-left: 110px;
+  }
+}
+/*End Header styling(Debugging) */
+
 
 html{
     overflow-x: hidden;
@@ -75,10 +131,6 @@ html{
   color: #fff;
 }
 
-.ocean_freight li::before{
-  content:url("assets/dot.png");
-}
-
 div.content {
   padding: 1px 16px;
 }
@@ -99,6 +151,16 @@ div.content {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+table tr::before{
+  content:url("assets/dot.png");
+  padding-right: 15px;
+}
+
+td{
+  padding-left: 15px;
+}
+
 
 </style>
    </head>
@@ -177,12 +239,24 @@ div.content {
 
         <p>Our team have successfully managed high-value, over-dimensional project cargo, all of which is backed by network of skilled partners worldwide, Ascent ensure a safe, on-time and incident-free shipments via the following measures:  </p>
 
-        <ul>
-          <li>&nbsp;&nbsp;Conducting detailed, country-specific port, route and bridge surveys and site reports to &nbsp;&nbsp;&nbsp;&nbsp;identify challenges and manage them in advance</li>
-          <li>&nbsp;&nbsp;Reviewing the market to find the right carriers and partners</li>
-          <li>&nbsp;&nbsp;Analysing the shipment to determine whether outside dimensions and weight per piece can &nbsp;&nbsp;&nbsp;&nbsp;be reduced, which may allow us to expand carrier and routing options and to minimize &nbsp;&nbsp;&nbsp;&nbsp;transport and handling costs</li> 
-          <li>&nbsp;&nbsp;Providing on-site representation during loading and unloading.</li>
-        </ul>
+        <table>
+          <tr>
+            <td>Conducting detailed, country-specific port, route and bridge surveys and site reports to identify challenges and manage them in advance</td>
+          </tr>
+
+           <tr>
+            <td>Reviewing the market to find the right carriers and partners</td>
+          </tr>
+
+           <tr>
+            <td>Analysing the shipment to determine whether outside dimensions and weight per piece can be reduced, which may allow us to expand carrier and routing options and to minimize ;transport and handling costs</td>
+          </tr>
+
+           <tr>
+            <td>Providing on-site representation during loading and unloading.</td>
+          </tr>
+        </table>
+
       </div>
     </div>
 
