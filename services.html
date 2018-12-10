@@ -21,6 +21,14 @@
       <title>Ascent Shipping</title>
 
       <style>
+      /*innner pages loweer screen drop down*/
+@media(max-width: 494px){
+   ul.dropdown-menu a{
+      margin-left:-125px !important;
+      clear:both;
+   }
+}
+
       /*Social Media Icons CSS*/
 .fa {
     padding: 9px;
@@ -53,6 +61,16 @@
   color: white;
 }
 /*End Social Media Icons CSS*/
+
+
+/*header drop down*/
+@media (min-width: 768px){
+.navbar-right .dropdown-menu {
+    right: -95px;
+    left: auto;
+  }
+}
+/*header drop down* end*/
 
  html{
     overflow-x: hidden;
