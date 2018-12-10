@@ -207,7 +207,7 @@ h1 a img{
    font-weight: bold;
 }
 
-.nav_items li a:focus{
+.nav_items li a:foucs{
    background-color: rgba(0, 0, 0, 0.4);
    border-radius: 10px;
    color:#fff;
@@ -215,6 +215,17 @@ h1 a img{
    text-decoration: none;
 }
 
+/* .active {
+    text-decoration: none;
+    background-color: #0076bf;
+    color:white;
+    font-weight: bold;
+}*/
+
+/*.nav_items li a:selected{
+  background-color: red !important;
+}
+*/
 .btn-primary {
     color: #fff;
     background-color: #022638;
