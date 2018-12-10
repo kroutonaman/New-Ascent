@@ -401,8 +401,11 @@ vertical-align:middle;
 
 
 
-
-                  
+@media (min-width: 992px){
+.pr-xl-4{
+  padding-top: 20px;
+  }
+}                 
                                 
 
 
